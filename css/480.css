@@ -1,0 +1,119 @@
+#content { position:relative;  width:260px; margin: 0px auto; padding-top:70px; }
+body {
+	background: url(../img/bg_phone.jpg) repeat;
+	background-size: 100% auto; 
+	background-attachment: fixed;
+}
+
+/* menu styles */
+#menu { position:relative; height:120px; }
+#about-link{ position:relative; width:280px; }
+
+
+
+#about-photo {
+	margin-top: -120px;
+}
+
+
+#copyright {
+	margin: 0 auto;
+	position: relative;
+	display: block;
+	width: 320px;
+	clear: both;
+	text-align: center;
+	padding-bottom: 30px;
+
+	top: 100px;
+}
+
+#menu-link {
+	background-color: #fcd56a;
+}
+
+
+#menu-link .link-item {
+	list-style: none;
+	position: relative;
+	width: 90px;
+	height: 30px;
+
+	-webkit-border-radius: 6px;
+	-moz-border-radius: 6px;
+	-ie-border-radius: 6px;
+	border-radius: 6px;
+
+	padding: .48em .8em;
+	text-shadow: rgba(0,0,0,.5) 0px -1px 0px;
+	font-size: 18px;
+	font-weight: 700;
+	-webkit-transition-property: background-color;
+	-webkit-transition-duration: .15s;
+	-webkit-transition-timing-function: ease-in-out;
+	cursor: pointer;
+	text-decoration: none;
+
+	margin-top: 74px;
+
+	margin-left: 0px;
+	
+
+	top: 690px;
+}
+
+#menu-link .link-mail {
+	margin-left: 22px;
+}
+
+#soc-icons .hint:after {
+	display: none;
+}
+
+#soc-icons .hint:before {
+	display: none;
+}
+
+
+
+.arrow {
+	position: absolute;
+	background: rgba(0, 0, 0, 0.8);
+
+	opacity: 0.8;
+
+
+	white-space: nowrap;
+	color: white;
+	padding: 6px 10px;
+	font-size: 15px;
+	box-shadow: 4px 4px 6px rgba(0, 0, 0, 0.3);
+
+	left: 33px;
+	bottom: -0.5px;
+}
+.arrow:after, .arrow:before {
+	right: 100%;
+	top: 50%;
+	border: solid transparent;
+	content: " ";
+	height: 0;
+	width: 0;
+	position: absolute;
+	pointer-events: none;
+}
+
+.arrow:before {
+	border-color: rgba(194, 225, 245, 0);
+	border-right-color: rgba(0, 0, 0, 0.8);
+	border-width: 6px;
+	margin-top: -6px;
+	margin-right: 0px;
+
+}
+
+#cv .arrow {
+	display: block;
+}
+
+
